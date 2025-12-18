@@ -4,6 +4,7 @@ Are time limits close? If so, generate max cases.
 Is the memory usage fine?
 Could anything overflow?
 Make sure to submit the right file.
+Limits: int +2x10^9, ll +9x10^18, vector 10^7 usually
 
 Wrong answer:
 Print your solution! Print debug output, as well.
@@ -46,6 +47,7 @@ Are you copying a lot of unnecessary data? (References)
 How big is the input and output? (consider scanf)
 Avoid vector, map. (use arrays/unordered_map)
 What do your teammates think about your algorithm?
+n <10 O(n!), <20 O(2^n), <400 O(n^3), <7500 O(n^2), <7e4 O(nv/n), <5e5 O(nlogn), <5e6 O(n), <1e18 O(logn) 
 
 Memory limit exceeded:
 What is the max amount of memory your algorithm should need?
